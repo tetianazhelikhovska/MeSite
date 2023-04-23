@@ -4,58 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
   </head>
   <body>
+    
     <header>
-      <a href="#">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="#">Студія</a></li>
-          <li><a href="#">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
-        </ul>
-       
-      </nav>
      
-    <ul>
-       <li> <a href="mailto:info@devstudio.com">:info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <a href="./index.html" class="link logo">Web<span class="logo-part-black">Studio</span></a>
+      <nav>
+        
+        <ul class="list">
+          <li><a class="link studio" href="./index.html">Студія</a></li>
+           <li><a class="link portfolio" href="./portfolio.html">Портфоліо</a></li>
+         <li><a class="link contacts" href="#">Контакти</a></li>
+        </ul>
+      </nav>
+   
+     
+    <ul class="list">
+    <li> <a class="link mail-1" href="mailto:info@devstudio.com">:info@devstudio.com</a></li>
+       <li><a class="link tel-1" href="tel:+380961111111">+38 096 111 11 11</a></li>
     </ul>
-    </header>
+</header>
+
+  
+    
     <main>
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="first-section">
+        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="main-button" type="button">Замовити послугу</button>
       </section>
 
       <section>
-        <h2>Особливості студії</h2>
-        <ul>
+        <h2 class="visually-hidden">Особливості студії</h2>
+        <ul class="list">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="list-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
           
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="list-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="list-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="list-title">ПЛАНУВАННЯ</h3>
+            <p class="list-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="list-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -64,8 +74,8 @@
       </section>
       <section>
 
-      <h2>Чим ми займаємося</h2>
-        <ul>
+      <h2 class="what-are-we-doing-title">Чим ми займаємося</h2>
+        <ul class="list">
        <li> <img src="./images/photo1.jpg" alt="фото 1" width="370"  height="294" ></li>
        <li> <img src="./images/photo2.jpg" alt="фото 2" width="370"  height="294"></li>
        <li> <img src="./images/photo3.jpg" alt="фото 3" width="370"   height="294"></li>
@@ -73,9 +83,9 @@
         
       </section>
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="our-team-title">Наша команда</h2>
 
-        <ul>
+        <ul class="list">
           <li>
           <img
             src="./images/Igor.jpg"
@@ -84,8 +94,8 @@
             height="260"
           />
         
-            <h3>Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <h3 class="names-title">Ігор Дем'яненко</h3>
+            <p class="names-text">Product Designer</p>
           
         </li>
 
@@ -97,8 +107,8 @@
             height="260"
           />
           
-            <h3>Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <h3 class="names-title">Ольга Рєпіна</h3>
+            <p class="names-text">Frontend Developer</p>
           
         </li>
 
@@ -106,8 +116,8 @@
           <img src="./images/Mykola.jpg" alt="Микола Тарасов" width="270" height="260"
           />
           
-            <h3>Микола Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="names-title">Микола Тарасов</h3>
+            <p class="names-text">Marketing</p>
         </li>
         
         <li>
@@ -117,21 +127,21 @@
             width="270"
             height="260"
           />
-            <h3>Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <h3 class="names-title">Михайло Єрмаков</h3>
+            <p class="names-text">UI Designer</p>
         </li>
         </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="foot-page">
      
-<a href="#">WebStudio</a>
+<a class="link logo" href="#">Web<span class="logo-part-white">Studio</span></a>
       <address>
-        <ul>
-      <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
-      <li> <a href="mailto:info@devstudio.com">:info@devstudio.com</a> </li>
-      <li> <a href="tel:+380961111111">+38 096 111 11 11 </a> </li>
+        <ul class="list">
+      <li><a class="link map" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
+      <li> <a class="link mail-2" href="mailto:info@devstudio.com">:info@devstudio.com</a> </li>
+      <li> <a class="link tel-1" href="tel:+380961111111">+38 096 111 11 11 </a> </li>
     </ul>
   </address>
 
